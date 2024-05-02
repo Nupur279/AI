@@ -1,0 +1,60 @@
+Salesforce(APEX)
+
+public class firstclass1{
+
+public static void Addition ()
+{
+Integer a=4;
+Integer b=5;
+Integer c=a+b;
+Integer d=4+5;
+Integere=a+5;
+System.debug('Add='+c);
+System.debug('Add='+d);
+System.debug('Add='+e);
+}
+
+public static void Subtraction ()
+{
+Integer a=4;
+Integer b= 5;
+Integer c1=a-b;
+Integer d1=b-a;
+Integer e1 =4 - 5;
+Integer f1=a - 5
+System.debug('Sub='+c1);
+System.debug('Sub='+d1);
+System.debug('Sub='+e1);
+System.debug('Sub='+f1);
+}
+
+public static void multi()
+{
+ Integer a=4;
+integer b=5;
+integer a=a*b;
+integer d =4*5;
+integer e=a*5;
+System.debug(c);
+System.debug(d);
+System.debug(e);
+
+Integer f=-4;
+Integer g=a*f;
+System.debug(g);
+}
+
+public static voidDiv()
+{
+Integer a=4;
+Integer b =5;
+Integer c =a/b;
+Integer d =4/5;
+Integer e =a\5;
+System.debug(c);
+System.debug(d);
+System.debug(e);
+}
+}
+
+Execute: classname.functionName();
